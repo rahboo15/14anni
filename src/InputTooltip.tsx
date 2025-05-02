@@ -281,7 +281,7 @@ function TooltipFocus() {
   });
   return (
     <>
-      <TextInput {...field.getInputProps()} label="Name" placeholder="Enter your name" mb="md" />
+      <TextInput {...field.getInputProps()} label="Please Enter a Code" placeholder="What code do you have for me?" mb="md" />
       {showMessage ? (
         <Card shadow="sm" padding="lg" radius="md" withBorder>
           <Card.Section>
